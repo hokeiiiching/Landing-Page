@@ -1,0 +1,97 @@
+body, html {
+    margin: 0;
+    font-family: "Varela", sans-serif;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    align-items: center;
+    background: linear-gradient(0.25turn,#dc09fc, #f3b0d3, #194eff);
+    height: 60px;
+    width: auto;
+}
+
+h2 {
+    font-family: "FUTURE GEISHA", sans-serif;
+    text-align: center;
+    color: #4b005f;
+    font-size: 30px;
+    letter-spacing: 6px;
+    font-weight: 300;
+    margin: 0;
+    line-height: 0;
+    animation: glitch1 0.5s infinite;
+}
+
+h2:nth-child(2) {
+    color: #0ef0e1;
+    animation: glitch2 1.0s infinite;
+}
+
+h2:nth-child(3) {
+    color: #ff94eb;
+    animation: glitch3 1.0s infinite;
+}
+
+@keyframes glitch1 {
+    0% {
+        transform: none;
+        opacity: 1;
+    }
+    50% {
+        transform: skew(-2deg, 0.6deg);
+        opacity: 0.75;
+    }
+    100% {
+        transform: none;
+        opacity: 1;
+    }
+}
+
+@keyframes glitch2 {
+    0% {
+        transform: none;
+        opacity: 0.25;
+    }
+    50% {
+        transform: translate(-3px, -1px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: none;
+        opacity: 0.25;
+    }
+}
+
+@keyframes glitch3 {
+    0% {
+        transform: none;
+        opacity: 0.25;
+    }
+    50% {
+        transform: translate(3px, 1px);
+        opacity: 0.5;
+    }
+    100% {
+        transform: none;
+        opacity: 0.25;
+    }
+}
+
+@font-face {
+    font-family: "FUTURE GEISHA";
+    src: url("/home/hokeiiiching/Downloads/Fonts/future-geisha/FUTUREGEISHA.otf");
+}
+
+
+
+
+
+
+
