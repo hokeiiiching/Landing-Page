@@ -1,9 +1,8 @@
 body, html {
     margin: 0;
-    font-family: "Varela", sans-serif;
+    font-family: "Roboto", sans-serif;
     width: 100vw;
     height: 100vh;
-    background-color: black;
 }
 
 
@@ -13,8 +12,124 @@ body, html {
     flex-wrap: nowrap;
     align-items: center;
     background: linear-gradient(0.25turn,#dc09fc, #f3b0d3, #194eff);
-    height: 60px;
+    height: 5vh;
     width: auto;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+    background-color: #1F2937;
+    height: 25vh;
+    width: 100vw;
+}
+
+.hero_maintext {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.hero_subtext, .social_links {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero_image {
+    width: 250px;
+    height: auto;
+}
+
+.second {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    height: 30vh;
+    width: 100vw;
+
+}
+
+.info_maintext {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.info_images {
+    display: flex;
+    gap: 10vw;
+}
+
+.info_text {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    gap: 10vw;
+    font-size: 18px;
+    color: #161617;
+}
+
+.one, .two, .three, .four {
+    width: 180px;
+    height: 180px;
+}
+
+.third {
+    background-color: #E5E7EB;
+    height: 20vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: flex-end;
+}
+
+.quote_container {
+    width: 80vw;
+    height: auto;
+}
+
+.quote_text {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+}
+
+.fourth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+
+}
+
+.cta_container {
+    display: flex;
+    justify-content: space-around;
+}
+.cta_button {
+    background-color: #3882F6;
+}
+
+.footer {
+    height: 5vh;
+    width: 100vw;
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_text {
+    color: #ffffff;
 }
 
 h2 {
@@ -88,6 +203,8 @@ h2:nth-child(3) {
     font-family: "FUTURE GEISHA";
     src: url("/home/hokeiiiching/Downloads/Fonts/future-geisha/FUTUREGEISHA.otf");
 }
+
+
 
 
 
