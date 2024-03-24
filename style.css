@@ -49,7 +49,7 @@ body, html {
     justify-content: flex-start;
     height: 30vh;
     width: 100vw;
-
+    background-color: -black;
 }
 
 .info_maintext {
@@ -57,7 +57,7 @@ body, html {
     font-weight: extra-bold;
     color: #1F2937;
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -73,11 +73,17 @@ body, html {
     gap: 10vw;
     font-size: 18px;
     color: #161617;
+    text-align: center;
 }
 
 .one, .two, .three, .four {
-    width: 180px;
-    height: 180px;
+    width: 12vw;
+    height: 15vh;
+}
+
+.image1, .image2, .image3, .image4 {
+    border: 5px solid #ea00ff;
+    padding: 1px;
 }
 
 .third {
@@ -113,10 +119,29 @@ body, html {
 
 .cta_container {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: space-around;
+    justify-content: center;
+    background-color: #3882F6;
+    width: 50vw;
+    height: 9vh;
+    border-radius: 15px;
 }
 .cta_button {
     background-color: #3882F6;
+    border-radius: 30px;
+    border: 2px solid; 
+    color: #ffffff;
+    width: 10vw;
+    height: 3vh;
+    margin: 30px 30px 30px;
+}
+
+.cta_text {
+    margin-left: 20px;
+    font-size: 15px;
+    color: #ffffff;
 }
 
 .footer {
